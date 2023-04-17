@@ -1,9 +1,5 @@
 <?php
 
-$is_dog = true;
-$humans = ["Dannielle", "Nick"];
-$dogs = ["Scarlet", "Reeba"];
-
 $test_name = "Reeba";
 
 // Decision structures - if, else if, else
