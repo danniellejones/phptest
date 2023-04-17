@@ -1,4 +1,5 @@
 <?php
+$site_root = '/phptest';
 
 $test_name = "Reeba";
 
@@ -58,7 +59,7 @@ $result = ($test_name == "Dannielle") ? "Me!" : "Who is it then?";
 </section>
 
 <br>
-<a href="index.html">Return to Home</a>
+<a href="<?= $site_root; ?>/index.php">Return to Home</a>
 
 </body>
 </html>

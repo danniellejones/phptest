@@ -1,4 +1,6 @@
 <?php
+$site_root = '/phptest';
+
 $i = 10;
 
 // While loops
@@ -56,4 +58,4 @@ foreach ($hobbies as $hobby) {
     ?>
 </table>
 
-<a href="index.html">Return to Home</a>
+<a href="<?= $site_root; ?>/index.php">Return to Home</a>

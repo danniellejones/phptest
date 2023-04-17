@@ -1,4 +1,5 @@
 <?php
+$site_root = '/phptest';
 
 /* Example multiline comment.
    Allows a second line. */
@@ -69,4 +70,4 @@ print_r("My most energetic pet is {$pet_to_breed['Reeba']}");
 
 
 
-<a href="index.html">Return to Home</a>
+<a href="<?= $site_root; ?>/index.php">Return to Home</a>

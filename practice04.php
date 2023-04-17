@@ -1,4 +1,6 @@
 <?php
+$site_root = '/phptest';
+
 echo "PHP Version: " . phpversion();
 echo '<br>';
 
@@ -53,4 +55,4 @@ foreach ($pets_to_breeds as $pet_to_breed) {
 <h1>Practice 04 Output Above</h1>
 
 
-<a href="index.html">Return to Home</a>
+<a href="<?= $site_root; ?>/index.php">Return to Home</a>
